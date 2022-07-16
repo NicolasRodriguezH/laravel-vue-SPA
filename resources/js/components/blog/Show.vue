@@ -61,7 +61,7 @@
                 if(confirm('¿Confirma eliminar el registro?')) {
                     this.axios.delete(`/api/blog/${id}`)
                     .then(response => {
-                        this.showBlogs
+                        this.showBlogs()
                     })
                     .catch(error => {
                         console.info(error)

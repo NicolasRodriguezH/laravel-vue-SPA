@@ -29,7 +29,7 @@ var staticRenderFns = [function () {
     staticClass: "row"
   }, [_c("div", {
     staticClass: "col text-center"
-  }, [_c("h1", [_vm._v("Buue "), _c("span", {
+  }, [_c("h1", [_vm._v("Componente "), _c("span", {
     staticClass: "badge bg-secondary"
   }, [_vm._v("CONTACTO")])])])])]);
 }];

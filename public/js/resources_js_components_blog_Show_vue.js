@@ -59,7 +59,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
       if (confirm('¿Confirma eliminar el registro?')) {
         this.axios["delete"]("/api/blog/".concat(id)).then(function (response) {
-          _this2.showBlogs;
+          _this2.showBlogs();
         })["catch"](function (error) {
           console.info(error);
         });
